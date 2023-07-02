@@ -1,0 +1,30 @@
+{
+  "name": "btube",
+  "version": "1.0.0",
+  "description": "ccy first test youtube",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hearoyuy/Btube.git"
+  },
+  "author": "orutos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hearoyuy/Btube/issues"
+  },
+  "homepage": "https://github.com/hearoyuy/Btube#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  }
+}
